@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "name": "Prit Tejani",
+    "email": "prit@example.com",
+    "course": "BTech",
+    "city": "Anand"
+  },
+  {
+    "id": 2,
+    "name": "Krish vaghasiya",
+    "email": "krish@example.com",
+    "course": "BTech",
+    "city": "Anand"
+  },
+  {
+    "id": 3,
+    "name": "Kaushal Patel",
+    "email": "kaushal@example.com",
+    "course": "BTech",
+    "city": "Anand"
+  },
+  {
+    "id": 4,
+    "name": "Krish Patel",
+    "email": "krish@example.com",
+    "course": "BTech",
+    "city": "Ahmedabad"
+  },
+  {
+    "id": 5,
+    "name": "Meet Prajapati",
+    "email": "meet@example.com",
+    "course": "BTech",
+    "city": "Anand"
+  },
+  {
+    "id": 6,
+    "name": "Dev Patel",
+    "email": "dev@example.com",
+    "course": "BTech",
+    "city": "Ahmedabad"
+  },
+  {
+    "id": 7,
+    "name": "Raj Vasani",
+    "email": "raj@example.com",
+    "course": "Btech IT",
+    "city": "Nadiad"
+  },
+  {
+    "id": 8,
+    "name": "Dhrumil Gajera",
+    "email": "dhrumil@example.com",
+    "course": "Btech IT",
+    "city": "Gandhinagar"
+  },
+  {
+    "id": 9,
+    "name": "Neet Patel",
+    "email": "neet@example.com",
+    "course": "BTech",
+    "city": "Surat"
+  },
+  {
+    "id": 10,
+    "name": "Arjun Mehta",
+    "email": "arjun@example.com",
+    "course": "BCA",
+    "city": "Rajkot"
+  },
+  {
+    "id": 11,
+    "name": "Het Patel",
+    "email": "het@example.com",
+    "course": "Btech cse",
+    "city": "Surat"
+  },
+  {
+    "id": 12,
+    "name": "Manav Joshi",
+    "email": "manav@example.com",
+    "course": "BTech",
+    "city": "Vadodara"
+  },
+  {
+    "id": 13,
+    "name": "Purv Patel",
+    "email": "purv@example.com",
+    "course": "BCA",
+    "city": "Anand"
+  },
+  {
+    "id": 14,
+    "name": "Vasu Patel",
+    "email": "vasu@example.com",
+    "course": "BSc IT",
+    "city": "Surat"
+  },
+  {
+    "id": 15,
+    "name": "Anand Mehta",
+    "email": "anand@example.com",
+    "course": "BCA",
+    "city": "Rajkot"
+  }
+]

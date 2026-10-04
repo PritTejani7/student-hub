@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Hub - Practical 6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Student Hub Portal</h1>
+    <p>Practical 6 - External JSON Data using Fetch API</p>
+</header>
+
+<nav class="menu">
+    <button class="menu-btn active" onclick="showSection('events')">Events</button>
+    <button class="menu-btn" onclick="showSection('students')">Students</button>
+    <button class="menu-btn" onclick="showSection('faqs')">FAQs</button>
+</nav>
+
+<main>
+    <section id="eventsSection" class="section">
+        <h2>College Events</h2>
+
+        <div class="controls">
+            <input type="text" id="eventSearch" placeholder="Search event...">
+            <select id="eventFilter">
+                <option value="all">All Types</option>
+            </select>
+            <select id="eventSort">
+                <option value="default">Sort By</option>
+                <option value="nameAsc">Name A-Z</option>
+                <option value="nameDesc">Name Z-A</option>
+                <option value="dateAsc">Date Oldest-Newest</option>
+                <option value="dateDesc">Date Newest-Oldest</option>
+            </select>
+        </div>
+
+        <p id="eventStatus" class="status">Loading events...</p>
+        <div id="eventContainer" class="grid"></div>
+        <div id="eventPagination" class="pagination"></div>
+    </section>
+
+    <section id="studentsSection" class="section hidden">
+        <h2>Student Profiles</h2>
+
+        <div class="controls">
+            <input type="text" id="studentSearch" placeholder="Search student...">
+            <select id="studentCourse">
+                <option value="all">All Courses</option>
+            </select>
+            <select id="studentSort">
+                <option value="default">Sort By</option>
+                <option value="nameAsc">Name A-Z</option>
+                <option value="nameDesc">Name Z-A</option>
+            </select>
+        </div>
+
+        <p id="studentStatus" class="status">Loading students...</p>
+        <div id="studentContainer" class="grid"></div>
+        <div id="studentPagination" class="pagination"></div>
+    </section>
+
+    <section id="faqsSection" class="section hidden">
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="controls">
+            <input type="text" id="faqSearch" placeholder="Search question...">
+        </div>
+
+        <p id="faqStatus" class="status">Loading FAQs...</p>
+        <div id="faqContainer"></div>
+        <div id="faqPagination" class="pagination"></div>
+    </section>
+</main>
+
+<footer>
+    <p>Practical 6 | JSON + Fetch API + Search + Filter + Sort + Pagination</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

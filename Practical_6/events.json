@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Web Development Workshop",
+    "date": "2026-10-10",
+    "venue": "Lab 1",
+    "type": "Workshop",
+    "description": "Learn HTML, CSS and JavaScript basics."
+  },
+  {
+    "id": 2,
+    "name": "Hackathon 2026",
+    "date": "2026-10-15",
+    "venue": "Innovation Lab",
+    "type": "Hackathon",
+    "description": "Build a useful project with your team."
+  },
+  {
+    "id": 3,
+    "name": "Technical Seminar",
+    "date": "2026-10-18",
+    "venue": "Seminar Hall",
+    "type": "Seminar",
+    "description": "A seminar on modern web technologies."
+  },
+  {
+    "id": 4,
+    "name": "Project Exhibition",
+    "date": "2026-10-20",
+    "venue": "Main Hall",
+    "type": "Exhibition",
+    "description": "Students present their final year projects."
+  },
+  {
+    "id": 5,
+    "name": "Coding Contest",
+    "date": "2026-10-22",
+    "venue": "Lab 2",
+    "type": "Contest",
+    "description": "Solve programming problems within a limited time."
+  },
+  {
+    "id": 6,
+    "name": "Cyber Security Talk",
+    "date": "2026-10-25",
+    "venue": "Room 201",
+    "type": "Seminar",
+    "description": "Understand basic cyber security practices."
+  },
+  {
+    "id": 7,
+    "name": "AI Workshop",
+    "date": "2026-10-28",
+    "venue": "AI Lab",
+    "type": "Workshop",
+    "description": "Introduction to artificial intelligence."
+  },
+  {
+    "id": 8,
+    "name": "Sports Meet",
+    "date": "2026-11-02",
+    "venue": "College Ground",
+    "type": "Sports",
+    "description": "Annual sports activities for students."
+  },
+  {
+    "id": 9,
+    "name": "Career Guidance",
+    "date": "2026-11-05",
+    "venue": "Seminar Hall",
+    "type": "Seminar",
+    "description": "Career and placement guidance session."
+  },
+  {
+    "id": 10,
+    "name": "Database Workshop",
+    "date": "2026-11-08",
+    "venue": "Lab 3",
+    "type": "Workshop",
+    "description": "Learn SQL and database fundamentals."
+  },
+  {
+    "id": 11,
+    "name": "Poster Competition",
+    "date": "2026-11-10",
+    "venue": "Block A",
+    "type": "Competition",
+    "description": "Create an informative technical poster."
+  },
+  {
+    "id": 12,
+    "name": "Cloud Computing Seminar",
+    "date": "2026-11-12",
+    "venue": "Room 301",
+    "type": "Seminar",
+    "description": "Introduction to cloud computing concepts."
+  },
+  {
+    "id": 13,
+    "name": "Java Programming Workshop",
+    "date": "2026-11-15",
+    "venue": "Lab 1",
+    "type": "Workshop",
+    "description": "Practice Java programming fundamentals."
+  },
+  {
+    "id": 14,
+    "name": "Robotics Exhibition",
+    "date": "2026-11-18",
+    "venue": "Main Hall",
+    "type": "Exhibition",
+    "description": "See student robotics projects."
+  },
+  {
+    "id": 15,
+    "name": "Innovation Day",
+    "date": "2026-11-20",
+    "venue": "Auditorium",
+    "type": "Exhibition",
+    "description": "Showcase creative student ideas and innovations."
+  }
+]

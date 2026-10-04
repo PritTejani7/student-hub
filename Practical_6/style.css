@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #222;
+}
+
+header {
+    background: #173b57;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+header h1 {
+    margin: 0 0 8px;
+}
+
+header p {
+    margin: 0;
+}
+
+.menu {
+    background: white;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 2px 6px #ccc;
+}
+
+.menu-btn {
+    padding: 10px 25px;
+    margin: 4px;
+    border: 1px solid #173b57;
+    background: white;
+    color: #173b57;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.menu-btn:hover,
+.menu-btn.active {
+    background: #173b57;
+    color: white;
+}
+
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 25px auto;
+    min-height: 500px;
+}
+
+.section h2 {
+    color: #173b57;
+}
+
+.hidden {
+    display: none;
+}
+
+.controls {
+    background: white;
+    padding: 18px;
+    border-radius: 10px;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 8px #ccc;
+    margin-bottom: 20px;
+}
+
+.controls input,
+.controls select {
+    padding: 11px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.controls input {
+    flex: 1;
+    min-width: 230px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 18px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 18px;
+    box-shadow: 0 2px 8px #ccc;
+    border-left: 5px solid #173b57;
+}
+
+.card h3 {
+    color: #173b57;
+    margin-top: 8px;
+}
+
+.badge {
+    display: inline-block;
+    padding: 5px 9px;
+    border-radius: 15px;
+    background: #e7f0f7;
+    color: #173b57;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.status {
+    text-align: center;
+    font-weight: bold;
+}
+
+.pagination {
+    text-align: center;
+    margin: 25px 0;
+}
+
+.pagination button {
+    padding: 9px 13px;
+    margin: 4px;
+    border: 1px solid #173b57;
+    background: white;
+    color: #173b57;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagination button.active,
+.pagination button:hover {
+    background: #173b57;
+    color: white;
+}
+
+.faq {
+    background: white;
+    margin: 12px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px #ccc;
+    overflow: hidden;
+}
+
+.faq-question {
+    padding: 16px;
+    font-weight: bold;
+    color: #173b57;
+    cursor: pointer;
+}
+
+.faq-answer {
+    padding: 0 16px 16px;
+    line-height: 1.5;
+    display: none;
+}
+
+.faq-answer.show {
+    display: block;
+}
+
+footer {
+    text-align: center;
+    background: #173b57;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+    main {
+        width: 94%;
+    }
+
+    .controls {
+        flex-direction: column;
+    }
+
+    .controls input,
+    .controls select {
+        width: 100%;
+    }
+}

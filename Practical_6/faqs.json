@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "question": "What is JSON?",
+    "answer": "JSON is a lightweight format used to store and exchange data."
+  },
+  {
+    "id": 2,
+    "question": "What is Fetch API?",
+    "answer": "Fetch API is used in JavaScript to request data from a file or server."
+  },
+  {
+    "id": 3,
+    "question": "What is an array?",
+    "answer": "An array stores multiple values in a single variable."
+  },
+  {
+    "id": 4,
+    "question": "What does filter() do?",
+    "answer": "filter() returns elements that satisfy a given condition."
+  },
+  {
+    "id": 5,
+    "question": "What does map() do?",
+    "answer": "map() creates a new array by applying a function to each element."
+  },
+  {
+    "id": 6,
+    "question": "What does sort() do?",
+    "answer": "sort() arranges array elements in a selected order."
+  },
+  {
+    "id": 7,
+    "question": "What is pagination?",
+    "answer": "Pagination divides a large set of records into smaller pages."
+  },
+  {
+    "id": 8,
+    "question": "Why use loading messages?",
+    "answer": "A loading message tells the user that data is still being fetched."
+  },
+  {
+    "id": 9,
+    "question": "What is error handling?",
+    "answer": "Error handling shows a useful message when something goes wrong."
+  },
+  {
+    "id": 10,
+    "question": "What is dynamic rendering?",
+    "answer": "Dynamic rendering creates webpage content using data and JavaScript."
+  },
+  {
+    "id": 11,
+    "question": "What is localStorage?",
+    "answer": "localStorage stores small amounts of data in the browser."
+  },
+  {
+    "id": 12,
+    "question": "What is a JSON file?",
+    "answer": "A JSON file contains structured data in JSON format."
+  },
+  {
+    "id": 13,
+    "question": "Why use external data?",
+    "answer": "External data keeps content separate from HTML and makes applications easier to update."
+  },
+  {
+    "id": 14,
+    "question": "What is search?",
+    "answer": "Search finds records that match text entered by the user."
+  },
+  {
+    "id": 15,
+    "question": "What is filtering?",
+    "answer": "Filtering displays only records that match selected conditions."
+  }
+]
